@@ -19,13 +19,14 @@ ENV/
 wandb/
 
 # 데이터 파일
-data/*.csv
-data/*.zip
+# data/*.csv
+# data/*.zip
 !data/.gitkeep
-
+*.csv
+*.zip
 # 출력 파일
-outputs/models/*.pth
-outputs/submissions/*.csv
+outputs/models/
+# outputs/submissions/*.csv
 outputs/*.png
 !outputs/.gitkeep
 
